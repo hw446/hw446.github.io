@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Cao Yixuan / 曹逸轩"
+title                    : "Li Hongwei / 李宏伟"
 title_separator          : "-"
-name                     : &name "Cao Yixuan / 曹逸轩"
+name                     : &name "Li Hongwei / 李宏伟"
 description              : &description "Ph.D candidate at ICT, CAS"
-url                      : https://yixuancao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://hw446.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yixuancao.github.io"
+repository               : "hw446.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Cao Yixuan / 曹逸轩"
+  name             : "Li Hongwei / 李宏伟"
   avatar           : "profile.png"
   bio              : "Ph.D candidate at ICT, CAS, interested in NLP and ML"
   location         : "Haidian, Beijing, China"
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yixuancao"
+  github           : "hw446"
   google_plus      :
   keybase          :
   instagram        :
