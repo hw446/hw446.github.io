@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "About Cao Yixuan"
+title: "About Hongwei Li"
 permalink: /
 author_profile: true
 redirect_from:
@@ -14,7 +14,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Traffic Engineering, Tongji University, 2015
+* B.S. in Software Engineering, Fuzhou University, 2015
 * Ph.D in CS, University of Chinese Academy of Sciences (Institute of Computing Technology, CAS), 2020 (expected)
 
 
