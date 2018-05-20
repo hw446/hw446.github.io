@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Hongwei Li     李宏伟"
+title                    : "Hongwei Li / 李宏伟"
 title_separator          : "-"
-name                     : &name "Hongwei Li / 李宏伟"
+name                     : &name "Hongwei Li"
 description              : &description "Ph.D candidate at ICT, CAS"
 url                      : https://hw446.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
