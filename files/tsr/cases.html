@@ -2,20 +2,32 @@
 <html>
 <body>
 
+<style type="text/css">
+video::-webkit-media-controls-panel {
+     background-image: linear-gradient(transparent, rgba(0,0,0,0.2)); !important;
+}
+</style>
+
 <h2> Case 1 </h2>
 
 <p style="margin-bottom:0px">Greedy Algorithm (GA)</p>
-<div><em><font size="1">The green boxes are the ground truth positions.</font></em></div>
+<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3 </font></em></div>
 <video width="854" height="204" controls="controls">
-  <source src="./videos/case1_greed.mp4" type="video/mp4">
+  <source src="./videos/case1/GA_0.3_randominit_fail.mp4" type="video/mp4">
 </video>
 <font size="10" color="red" >&nbsp; &nbsp; &#x2717;</font>
 
+<p style="margin-bottom:0px">Reinforcement Learning Approach (RLA)</p>
+<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3 </font></em></div>
+<video width="854" height="204" controls="controls">
+  <source src="./videos/case1/RLA_0.3_randominit_success.mp4" type="video/mp4">
+</video>
+<font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
 <p style="margin-bottom:0px">Reinforcement Learning Approach with the Greedy heuristics (RLAG)</p>
-<div><em><font size="1">The green boxes are the ground truth positions.</font></em></div>
+<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3 </font></em></div>
 <video width="854" height="204" controls="controls">
-  <source src="./videos/case1_model.mp4" type="video/mp4">
+  <source src="./videos/case1/RLAG_0.3_randominit_success.mp4" type="video/mp4">
 </video>
 <font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
