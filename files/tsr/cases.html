@@ -8,52 +8,56 @@ video::-webkit-media-controls-panel {
 }
 </style>
 
+<h2> Introduction </h2>
+<p><em>Each character in videos is cut from PDF.</em></p>
+<p><em>The green boxes in videos are the ground truth positions.</em></p>
+
 <h2> Case 1 </h2>
 
 <p style="margin-bottom:0px">Greedy Algorithm (GA)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.1; random initialization. </font></em></div>
+<div><em><font size="1"> Random initialization; &alpha;=0.1. </font></em></div>
 <video width="853" height="204" controls="controls">
   <source src="./videos/case1/GA_0.1_randominit_fail.mp4" type="video/mp4">
 </video>
 <font size="10" color="red" >&nbsp; &nbsp; &#x2717;</font>
 
 <p style="margin-bottom:0px">Reinforcement Learning Approach (RLA)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.1; random initialization. </font></em></div>
+<div><em><font size="1"> Random initialization; &alpha;=0.1. </font></em></div>
 <video width="853" height="204" controls="controls">
   <source src="./videos/case1/RLA_0.1_randominit_success.mp4" type="video/mp4">
 </video>
 <font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
 <p style="margin-bottom:0px">Reinforcement Learning Approach with the Greedy heuristics (RLAG)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.1; random initialization. </font></em></div>
+<div><em><font size="1"> Random initialization; &alpha;=0.1. </font></em></div>
 <video width="853" height="204" controls="controls">
   <source src="./videos/case1/RLAG_0.1_randominit_success.mp4" type="video/mp4">
 </video>
 <font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
 
-<!-- <h2> Case 2 </h2>
+<h2> Case 2 </h2>
 
 <p style="margin-bottom:0px">Greedy Algorithm (GA)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3; default initialization. </font></em></div>
+<div><em><font size="1"> Default initialization; &alpha;=0.3. </font></em></div>
 <video width="1350" height="446" controls="controls">
   <source src="./videos/case2/GA_0.3_ruleinit_fail.mp4" type="video/mp4">
 </video>
 <font size="10" color="red" >&nbsp; &nbsp; &#x2717;</font>
 
 <p style="margin-bottom:0px">Reinforcement Learning Approach (RLA)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3; default initialization. </font></em></div>
+<div><em><font size="1"> Default initialization; &alpha;=0.3. </font></em></div>
 <video width="1350" height="446" controls="controls">
   <source src="./videos/case2/RLA_0.3_ruleinit_success.mp4" type="video/mp4">
 </video>
 <font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
 <p style="margin-bottom:0px">Reinforcement Learning Approach with the Greedy heuristics (RLAG)</p>
-<div><em><font size="1">The green boxes are the ground truth positions; &alpha;=0.3; default initialization. </font></em></div>
+<div><em><font size="1"> Default initialization; &alpha;=0.3. </font></em></div>
 <video width="1350" height="446" controls="controls">
   <source src="./videos/case2/RLAG_0.3_ruleinit_success.mp4" type="video/mp4">
 </video>
-<font size="10" color="green">&nbsp; &nbsp;&#x2713;</font> -->
+<font size="10" color="green">&nbsp; &nbsp;&#x2713;</font>
 
 </body>
 </html>
