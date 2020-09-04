@@ -1,0 +1,18 @@
+---
+title: "Semantic Matching over Matrix-Style Tables in Richly Formatted Documents"
+collection: publications
+permalink: /publication/2020-06-02-DEXA-semantic-matching
+date: 2020-06-02
+venue: 'DEXA (International Conference on Database and Expert Systems Applications) in Bratislava, Slovakia'
+paperurl: 'http://hw446.github.io/files/2020-DEXA-semantic-matching.pdf'
+citation: 'Hongwei Li, Qingping Yang, Yixuan Cao, Ganbin Zhou, and Ping Luo. Semantic Matching over Matrix-Style Tables in Richly Formatted Documents. In Proceedings of the International Conference on Database and Expert Systems Applications, Sep 14-17, 2020, Bratislava, Slovakia'
+---
+Table is an efficient way to represent a huge number of facts in a compact manner.
+As practitioners in the vertical domain share lots of common prior knowledge, they tend to represent facts more concisely using matrix-style tables. However, such tables are originally intended for human reading, but not machine-readable due to their complex structures including row header, column header, metadata, external context, and even hierarchies in headers.
+In order to improve the efficiency of practitioners in mining and utilizing these matrix-style tables, in this study we introduce a challenging task to discover fact-overlapping relations between matrix-style tables.
+This relation focuses on fine-grained local semantics instead of overall relatedness in conventional tasks.
+We propose an attention-based model for this task.
+Experiments reveal that our model is more capable of discovering the local relatedness, and outperforms four baseline methods.
+We also conduct an ablation study and case study to investigate our model in detail.
+
+[Download paper here](http://hw446.github.io/files/2020-DEXA-semantic-matching.pdf)
