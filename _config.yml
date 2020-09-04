@@ -10,7 +10,7 @@ locale                   : "zh-CN"
 title                    : "Hongwei Li / 李宏伟"
 title_separator          : "-"
 name                     : &name "Hongwei Li / 李宏伟"
-description              : &description "Ph.D candidate at ICT, CAS"
+description              : &description "Ph.D in Computer Science"
 url                      : https://hw446.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hw446.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Hongwei Li"
   avatar           : "profile.png"
-  bio              : "Ph.D candidate at ICT, CAS, interested in NLP, CV and ML"
+  bio              : "Ph.D in Computer Science, interested in NLP, CV and ML"
   location         : "Haidian, Beijing, China"
   employer         :
   googlescholar    : 
